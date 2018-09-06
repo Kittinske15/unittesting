@@ -1,0 +1,7 @@
+*.classpath
+bin/
+build/
+out/
+# eclipse junk
+.settings
+.project
