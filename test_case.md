@@ -12,7 +12,7 @@
 | Test case              |  Expected Result    |
 |------------------------|---------------------|
 | Typical search             |  return index           |
-| Element in None              |  return Error show "input couldn't be None"           |
+| Element in None              |  return Error show "input could not be None"           |
 | Unexpected search   |  return None           |
 | Huge amount in list | return index   |
 
