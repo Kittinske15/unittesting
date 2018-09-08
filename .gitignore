@@ -5,3 +5,4 @@ out/
 # eclipse junk
 .settings
 .project
+.idea/
