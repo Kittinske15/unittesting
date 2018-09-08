@@ -61,3 +61,4 @@ def binary_search(list, element):
                 count += 1
                 if list[midpoint - count] == element:
                     return midpoint - count
+

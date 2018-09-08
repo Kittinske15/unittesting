@@ -21,8 +21,16 @@ class TestCountUnique(unittest.TestCase):
 
 class TestBinarySearch(unittest.TestCase):
     def typical_search(self):
-        list = [1, 2, 3, 4, 5]
-        self.assertEqual(binary_search(list, 4), 3)
-        list = [1, 4, 7, 8, 9, 10, 11, 12, 17, 25]
-        self.assertEqual(binary_search(list, 9), 4)
+        list = [2,4,6,1,3]
+        self.assertEqual(binary_search(list, 3), 2)
+
+    def none_search(self):
+        binary_search([1,3,5,2,7,90],None)
+        self.assertRaises(TypeError,"Input couldn't be None")
+
+    def unexpected_search(self):
+        self.assertIsNone(binary_search([1,2], 6),"None")
+
+    def extreme_search(self):
+        self.assertEqual(binary_search(binary_search([range(10000)],5),6))
 

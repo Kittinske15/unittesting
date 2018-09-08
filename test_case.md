@@ -11,8 +11,8 @@
 
 | Test case              |  Expected Result    |
 |------------------------|---------------------|
-| Border Line             |  return 0           |
-| Typical               |  return n           |
-| Unique    |  return follow the amount of unique           |
-| Huge list n items | return n   |
+| Typical search             |  return index           |
+| Element in None              |  return Error show "input couldn't be None"           |
+| Unexpected search   |  return None           |
+| Huge amount in list | return index   |
 
