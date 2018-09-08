@@ -7,7 +7,7 @@
 | Unique    |  return follow the amount of unique           |
 | Huge list n items | return n   |
 
-## Tests binary search
+## Tests for binary search
 
 | Test case              |  Expected Result    |
 |------------------------|---------------------|
